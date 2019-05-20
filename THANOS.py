@@ -428,7 +428,7 @@ def controlscreen():
         win.blit(keyboard,(275,100))
         button("Home", 1120, 30, 100, 50, White, Bright_Red, "Home")
 
-        storyfont = pygame.font.SysFont("retganonttf", 45)
+        storyfont = pygame.font.SysFont("returnofganonregular", 45)
         storytextsurface = storyfont.render("Press W to Jump", False, Black)
         win.blit(storytextsurface, (625 - (storytextsurface.get_width() / 2), 375))
 
@@ -497,7 +497,7 @@ def story_screen():
         win.blit(intermission ,(0,0))
         #win.blit(Round1_Screen ,(184,50) )
 
-        storyfont = pygame.font.SysFont("retganonttf", 60)
+        storyfont = pygame.font.SysFont("returnofganonregular", 60)
         storytextsurface = storyfont.render("Press Space to Start", False, Black)
         win.blit(storytextsurface, (625 - (storytextsurface.get_width() / 2), 375 ))
 
@@ -505,7 +505,7 @@ def story_screen():
         win.blit(storytextsurface, (625 - (storytextsurface.get_width() / 2), 200))
 
 
-        storyfont1 = pygame.font.SysFont("retganonttf", 45)
+        storyfont1 = pygame.font.SysFont("returnofganonregular", 45)
         storytextsurface1 = storyfont1.render("Press H to Activate EASY mode", False, Black)
         win.blit(storytextsurface1, (625 - (storytextsurface1.get_width() / 2), 250))
 
@@ -559,7 +559,7 @@ def level_1():
         global score
         while gameOver == True:
             win.blit(gameoverscreen, (0, 0))
-            font1 = pygame.font.SysFont('retganonttf', 50)
+            font1 = pygame.font.SysFont('returnofganonregular', 50)
             text = font1.render('Press q to quit, Press r to Restart', 1, White)
             win.blit(text, (625 - (text.get_width() / 2), 500))
             pygame.display.update()
@@ -607,7 +607,7 @@ def level_1():
             #win.blit(Round2_Screen, (229, 176))
             keys = pygame.key.get_pressed()
 
-            font1 = pygame.font.SysFont('retganonttf', 50)
+            font1 = pygame.font.SysFont('returnofganonregular', 50)
             text = font1.render('Round 1 Completed', 1, Black)
             win.blit(text, (625 - (text.get_width() / 2), 200))
             text1 = font1.render("Press g to Fight!", 1, Black)
@@ -739,7 +739,7 @@ def level_2():
         while gameOver == True:
             win.blit(gameoverscreen, (0, 0))
             win.blit(gameoverscreen, (0, 0))
-            font1 = pygame.font.SysFont('retganonttf', 50)
+            font1 = pygame.font.SysFont('returnofganonregular', 50)
             text = font1.render('Press q to quit, Press r to Restart', 1, White)
             win.blit(text, (625 - (text.get_width() / 2), 500))
             pygame.display.update()
@@ -781,7 +781,7 @@ def level_2():
             win.blit(intermission, (0, 0))
             #win.blit(intermission, (178, 217))
             keys = pygame.key.get_pressed()
-            font1 = pygame.font.SysFont('retganonttf', 50)
+            font1 = pygame.font.SysFont('returnofganonregular', 50)
             text = font1.render('Round 2 Completed', 1, Black)
             win.blit(text, (625 - (text.get_width() / 2), 200))
             text1 = font1.render("Press g to Fight!", 1, Black)
@@ -884,7 +884,7 @@ def level_3():
         while gameOver == True:
             win.blit(gameoverscreen, (0, 0))
             win.blit(gameoverscreen, (0, 0))
-            font1 = pygame.font.SysFont('retganonttf', 50)
+            font1 = pygame.font.SysFont('returnofganonregular', 50)
             text = font1.render('Press q to quit, Press r to Restart', 1, White)
             win.blit(text, (625 - (text.get_width() / 2), 500))
             pygame.display.update()
